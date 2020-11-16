@@ -1066,6 +1066,6 @@ section#welcome .welcome-jumbo img {
 }
 body {
     background: #5f0417;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', "Roboto", sans-serif;
     cursor: default;
 }
