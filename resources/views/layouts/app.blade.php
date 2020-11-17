@@ -26,7 +26,7 @@
     <body>
        <!--* main section -->
       <section id="welcome">
-        <!--! Left Side (menu -->
+        <!--! Left Side menu -->
         <div class="welcome-menu">
           <div class="close">
             <i class="fa fa-times" aria-hidden="true" alt="Close"></i>
