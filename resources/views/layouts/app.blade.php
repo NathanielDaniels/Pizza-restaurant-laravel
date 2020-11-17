@@ -22,14 +22,6 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="./css/app.css" />
-
-        <!-- <style>
-            body {
-                background: #5f0417;
-                font-family: 'Inter', "Roboto", sans-serif;
-                cursor: default;
-            }
-        </style> -->
     </head>
     <body>
        <!--* main section -->
