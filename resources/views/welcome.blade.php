@@ -1,13 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.landing-page')
 
 @section('title', 'Page Title')
 
 @section('sidebar')
     @parent
 
-    <p>This is appended to the master sidebar.</p>
+    <p style="padding: 1em; color: white">master sidebar.</p>
 @endsection
 
 @section('content')
-    <p>This is my body content.</p>
+    <h1 style="padding: 1em; color: white">Testing Layout</h1>
 @endsection
