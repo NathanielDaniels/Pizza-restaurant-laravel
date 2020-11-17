@@ -28,7 +28,7 @@
       <section id="welcome">
         <!--! Left Side menu -->
          @yield('sidebar')
-        <div class="welcome-menu">
+        {{-- <div class="welcome-menu">
           <div class="close">
             <i class="fa fa-times" aria-hidden="true" alt="Close"></i>
           </div>
@@ -79,7 +79,7 @@
               <a href="tel:+7085551234">(708)555-1234</a>
             </div>
           </div>
-        </div>
+        </div> --}}
         <!--! Right Side -->
         <div class="welcome-jumbo">
           <div class="mobile-burger-menu">
