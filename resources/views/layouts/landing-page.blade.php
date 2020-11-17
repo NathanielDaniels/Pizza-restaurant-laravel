@@ -81,6 +81,7 @@
           </div>
         </div> --}}
         <!--! Right Side -->
+        {{-- @yield('content') --}}
         <div class="welcome-jumbo">
           <div class="mobile-burger-menu">
             <button class="mobile-burger-menu__button">
