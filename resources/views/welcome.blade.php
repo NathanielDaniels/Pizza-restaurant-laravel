@@ -1,4 +1,4 @@
-@extends('layouts.landing-page')
+@extends('layouts.landing')
 
 @section('sidebar')
   @parent
