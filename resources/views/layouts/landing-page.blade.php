@@ -101,7 +101,7 @@
 
       @yield('content')
 
-      <!--* Info Section -->
+      {{-- <!--* Info Section -->
       <section id="information">
         <div class="restaurant-img">
           <img src=".././public/img/pizza/pizzeria-signs.jpg" alt="Pizza Kitchen" />
@@ -231,7 +231,7 @@
             <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </div>
         </div>
-      </section>
+      </section> --}}
 
       <!--! Javascript -->
       <script type="text/javascript">
