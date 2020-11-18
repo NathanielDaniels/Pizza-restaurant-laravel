@@ -24,12 +24,12 @@
         <link rel="stylesheet" href="./css/app.css" />
     </head>
     <body>
-      {{-- <section id="welcome"> --}}
+      <section id="welcome">
         <!--! Left Side menu -->
         @include('includes.side-menu')
         <!--! Right Side -->
         @yield('title')
-
+      </section>
       <!--! Javascript -->
       {{-- <script type="text/javascript">
         function mobileMenu () {

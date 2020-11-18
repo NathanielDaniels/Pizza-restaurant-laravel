@@ -1,8 +1,8 @@
 @extends('layouts.landing')
 
-@section('sidebar')
+{{-- @section('sidebar')
   @parent
-    <div class="welcome-menu">
+    <div class="welcome-menu"
       <div class="close">
         <i class="fa fa-times" aria-hidden="true" alt="Close"></i>
       </div>
@@ -54,7 +54,8 @@
         </div>
       </div>
     </div>
-@endsection
+    @include('includes.side-menu')
+@endsection --}}
 
 @section('title')
   <div class="welcome-jumbo">

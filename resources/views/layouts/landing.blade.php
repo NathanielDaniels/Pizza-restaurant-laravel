@@ -27,7 +27,7 @@
        <!--* main section -->
       <section id="welcome">
         <!--! Left Side menu -->
-        @yield('sidebar')
+        @include('includes.side-menu')
         <!--! Right Side -->
         @yield('title')
       </section>
