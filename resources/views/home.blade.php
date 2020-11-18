@@ -7,13 +7,13 @@
         <i class="fa fa-times" aria-hidden="true" alt="Close"></i>
       </div>
       <div class="logo">
-        <img src=".././public/img/mama-mia-logo-pizza-angle.png" alt="Mamma Mia logo" />
+        <a href="/"><img src=".././public/img/mama-mia-logo-pizza-angle.png" alt="Mamma Mia logo" /></a>
       </div>
       <div class="menu">
         <ul>
           <a href="menu"><li>Menu</li></a>
           <a href="offers"><li>Rewards</li></a>
-          <a href="app"><li>Wait List</li></a>
+          <a href="waitlist"><li>Wait List</li></a>
           <a href="giftcards"><li>Gift Cards</li></a>
         </ul>
         <ul class="social-icons">

@@ -12,8 +12,6 @@
       </button>
     </div>
     <div class="title-container">
-      <h1>Mamma Mia' <span>Pizza</span></h1>
-      <p>Now That's A Good Pie!</p>
       <h2 style="text-align: center; color: #fff; font-size: 3rem;margin-top: 1em;">Wait List</h2>
     </div>
     <img src=".././public/img/pizza/pizza-main-cut.png" alt="Pizza" />
