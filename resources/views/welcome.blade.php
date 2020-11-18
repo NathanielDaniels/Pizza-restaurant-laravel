@@ -11,10 +11,10 @@
       </div>
       <div class="menu">
         <ul>
-          <a href="#food-preview"><li>Menu</li></a>
-          <a href="#rewards"><li>Rewards</li></a>
-          <a href="#waitList"><li>Wait List</li></a>
-          <a href="#giftCards"><li>Gift Cards</li></a>
+          <a href="menu"><li>Menu</li></a>
+          <a href="rewards"><li>Rewards</li></a>
+          <a href="app"><li>Wait List</li></a>
+          <a href="giftcards"><li>Gift Cards</li></a>
         </ul>
         <ul class="social-icons">
           <li>
