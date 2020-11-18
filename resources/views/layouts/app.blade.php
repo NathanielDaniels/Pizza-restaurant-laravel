@@ -31,7 +31,7 @@
         @yield('title')
       </section>
       <!--! Javascript -->
-      {{-- <script type="text/javascript">
+      <script type="text/javascript">
         function mobileMenu () {
           const menu = document.querySelector('.welcome-menu')
           const closeMenuBtn = document.querySelector('.welcome-menu > .close')
@@ -92,6 +92,6 @@
         arrowClick()
 
 
-      </script> --}}
+      </script>
     </body>
 </html>
