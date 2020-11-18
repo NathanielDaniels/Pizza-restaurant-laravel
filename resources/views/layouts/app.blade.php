@@ -36,7 +36,7 @@
           <div class="menu">
             <ul>
               <a href="menu"><li>Menu</li></a>
-              <a href="rewards"><li>Rewards</li></a>
+              <a href="offers"><li>Rewards</li></a>
               <a href="app"><li>Wait List</li></a>
               <a href="giftcards"><li>Gift Cards</li></a>
             </ul>

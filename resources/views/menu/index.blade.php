@@ -2,6 +2,6 @@
 
 @section('title')
   <div class="welcome-jumbo">
-    <h1>Menu</h1>
+    <h1 style="text-align: center; color: #fff; font-size: 3rem;margin-top: 1em;">Menu</h1>
   </div>
 @endsection
