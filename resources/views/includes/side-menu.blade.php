@@ -1,4 +1,4 @@
- <div class="welcome-menu">
+ <div class="side-menu">
   <div class="close">
     <i class="fa fa-times" aria-hidden="true" alt="Close"></i>
   </div>

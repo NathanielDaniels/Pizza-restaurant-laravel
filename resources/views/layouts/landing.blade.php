@@ -32,8 +32,9 @@
         <!--! Right Side -->
         @yield('title')
       </section>
-
+      
       @yield('content')
+
 
       
 

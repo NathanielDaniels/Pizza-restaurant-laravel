@@ -29,7 +29,10 @@
         <!--! Left Side menu -->
         @include('includes.side-menu')
         <!--! Right Side -->
-        @yield('title')
+        <section id="content-section">
+          @yield('title')
+          @yield('content')
+        </section>
       </section>
       <!--! Javascript -->
       <script type="text/javascript">
