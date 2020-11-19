@@ -37,7 +37,7 @@
 	}
 }
 
-section#welcome {
+#app-layout {
 	display: flex;
 	justify-content: space-between;
   align-items: center;
@@ -201,7 +201,7 @@ section#welcome {
   //   animation: none !important;
   // }
 
-  section#welcome {
+  section#app-layout {
     .welcome-menu {
       transform: translateX(-15em);
       position: absolute;
@@ -299,7 +299,7 @@ section#welcome {
 
 
 @media screen and (max-width: 800px) {
-  section#welcome {
+  section#app-layout {
     div.welcome-jumbo {
       div.title-container {
         top: 30%;

@@ -231,7 +231,7 @@ table {
   }
 }
 
-section#welcome {
+#app-layout {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -244,7 +244,7 @@ section#welcome {
   border-bottom: 2px solid black;
 }
 
-section#welcome .welcome-menu {
+#app-layout .welcome-menu {
   border-right: 2px solid black;
   width: 14em;
   background: #eee;
@@ -257,7 +257,7 @@ section#welcome .welcome-menu {
           animation: menuSlide 1s 1 ease-in-out;
 }
 
-section#welcome .welcome-menu .close {
+#app-layout .welcome-menu .close {
   display: none;
   position: absolute;
   top: 0;
@@ -269,43 +269,43 @@ section#welcome .welcome-menu .close {
   cursor: pointer;
 }
 
-section#welcome .welcome-menu .logo {
+#app-layout .welcome-menu .logo {
   margin: 0.5em 0;
   font-size: 1.5rem;
   text-align: center;
 }
 
-section#welcome .welcome-menu .logo img {
+#app-layout .welcome-menu .logo img {
   position: relative;
   width: 6em;
 }
 
-section#welcome .welcome-menu .menu {
+#app-layout .welcome-menu .menu {
   margin-top: -50px;
 }
 
-section#welcome .welcome-menu .menu ul {
+#app-layout .welcome-menu .menu ul {
   text-align: right;
 }
 
-section#welcome .welcome-menu .menu ul a {
+#app-layout .welcome-menu .menu ul a {
   text-decoration: none;
   font-size: 2.1rem;
   color: #333333;
   width: 100%;
 }
 
-section#welcome .welcome-menu .menu ul a li {
+#app-layout .welcome-menu .menu ul a li {
   padding: 0.3em 0.3em;
   transition: border-left 0.3s ease-in-out;
 }
 
-section#welcome .welcome-menu .menu ul a li:hover,
-section#welcome .welcome-menu .menu ul a li:focus {
+#app-layout .welcome-menu .menu ul a li:hover,
+#app-layout .welcome-menu .menu ul a li:focus {
   border-left: 10px solid #ee9b08;
 }
 
-section#welcome .welcome-menu .menu .social-icons {
+#app-layout .welcome-menu .menu .social-icons {
   float: right;
   padding: 0.5em;
   width: 80%;
@@ -313,12 +313,12 @@ section#welcome .welcome-menu .menu .social-icons {
   justify-content: flex-end;
 }
 
-section#welcome .welcome-menu .menu .social-icons li a {
+#app-layout .welcome-menu .menu .social-icons li a {
   margin: 0 0.2em;
   text-decoration: none;
 }
 
-section#welcome .welcome-menu .menu .social-icons li a img {
+#app-layout .welcome-menu .menu .social-icons li a img {
   color: #4b4b4b;
   opacity: 0.8;
   width: 1em;
@@ -326,44 +326,44 @@ section#welcome .welcome-menu .menu .social-icons li a img {
   border-radius: 50%;
 }
 
-section#welcome .welcome-menu .menu .social-icons li a img:hover,
-section#welcome .welcome-menu .menu .social-icons li a img:focus {
+#app-layout .welcome-menu .menu .social-icons li a img:hover,
+#app-layout .welcome-menu .menu .social-icons li a img:focus {
   background: #ee9b08;
 }
 
-section#welcome .welcome-menu .location {
+#app-layout .welcome-menu .location {
   padding: 1em;
   font-size: 1.2rem;
   color: #4b4b4b;
   text-align: right;
 }
 
-section#welcome .welcome-menu .location .address {
+#app-layout .welcome-menu .location .address {
   line-height: 1.2;
 }
 
-section#welcome .welcome-menu .location .phone-number {
+#app-layout .welcome-menu .location .phone-number {
   font-size: 1.3rem;
   margin-top: 0.4em;
 }
 
-section#welcome .welcome-menu .location .phone-number a {
+#app-layout .welcome-menu .location .phone-number a {
   text-decoration: none;
   color: #5f0417;
 }
 
-section#welcome .welcome-jumbo {
+#app-layout .welcome-jumbo {
   cursor: default;
   position: relative;
   height: 100vh;
   width: calc(100% - 14em);
 }
 
-section#welcome .welcome-jumbo .mobile-burger-menu__button {
+#app-layout .welcome-jumbo .mobile-burger-menu__button {
   display: none;
 }
 
-section#welcome .welcome-jumbo .title-container {
+#app-layout .welcome-jumbo .title-container {
   -webkit-animation: titleFade 2.5s 1 ease-in-out;
           animation: titleFade 2.5s 1 ease-in-out;
   text-align: center;
@@ -377,12 +377,12 @@ section#welcome .welcome-jumbo .title-container {
   text-shadow: 0px 1px 4px #5f0417, 0px -1px 4px #5f0417, -1px 0px 4px #5f0417, 1px 0px 4px #5f0417;
 }
 
-section#welcome .welcome-jumbo .title-container h1 {
+#app-layout .welcome-jumbo .title-container h1 {
   font-size: clamp(5.3rem, 1vw, 1rem);
   line-height: 0.8;
 }
 
-section#welcome .welcome-jumbo .title-container h1 span {
+#app-layout .welcome-jumbo .title-container h1 span {
   position: relative;
   text-transform: uppercase;
   font-size: 11rem;
@@ -390,13 +390,13 @@ section#welcome .welcome-jumbo .title-container h1 span {
   font-weight: 600;
 }
 
-section#welcome .welcome-jumbo .title-container p {
+#app-layout .welcome-jumbo .title-container p {
   font-size: 2.8rem;
   margin-top: -3px;
   color: rgba(255, 255, 255, 0.6);
 }
 
-section#welcome .welcome-jumbo img {
+#app-layout .welcome-jumbo img {
   -webkit-animation: pizzaSlide 1s 1 ease-in-out;
           animation: pizzaSlide 1s 1 ease-in-out;
   position: absolute;
@@ -409,7 +409,7 @@ section#welcome .welcome-jumbo img {
 }
 
 @media screen and (max-width: 1200px) {
-  section#welcome .welcome-menu {
+  section#app-layout .welcome-menu {
     transform: translateX(-15em);
     position: absolute;
     z-index: 100;
@@ -419,19 +419,19 @@ section#welcome .welcome-jumbo img {
             animation: none !important;
   }
 
-  section#welcome .welcome-menu div.close {
+  section#app-layout .welcome-menu div.close {
     display: block;
   }
 
-  section#welcome .welcome-menu .logo {
+  section#app-layout .welcome-menu .logo {
     font-size: 1.5rem !important;
   }
 
-  section#welcome .welcome-jumbo {
+  section#app-layout .welcome-jumbo {
     width: 100%;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button {
     display: block;
     background: transparent;
     border: transparent;
@@ -441,25 +441,25 @@ section#welcome .welcome-jumbo img {
     cursor: pointer;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button:focus {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button:focus {
     outline: thin dashed;
     outline-color: #ee9b08;
     padding: 0 5px;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements {
     width: 35px;
     height: 35px;
     position: relative;
     top: 5px;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements:hover .line,
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements:focus .line {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements:hover .line,
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements:focus .line {
     background: #fff;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line {
     position: absolute;
     width: 35px;
     height: 4px;
@@ -469,32 +469,32 @@ section#welcome .welcome-jumbo img {
     transition: all 0.2s cubic-bezier(0.42, 0, 0.68, 1.78);
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line01 {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line01 {
     top: 5%;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line02 {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line02 {
     top: 30%;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line03 {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements .line03 {
     top: 55%;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements.close .line01 {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements.close .line01 {
     transform: rotate(45deg);
     top: 30%;
     background: yellow;
   }
 
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements.close .line02,
-  section#welcome .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements.close .line03 {
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements.close .line02,
+  section#app-layout .welcome-jumbo .mobile-burger-menu__button .mobile-burger-menu__elements.close .line03 {
     background: yellow;
     top: 30%;
     transform: rotate(-45deg);
   }
 
-  section#welcome .welcome-jumbo .title-container {
+  section#app-layout .welcome-jumbo .title-container {
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
@@ -502,11 +502,11 @@ section#welcome .welcome-jumbo img {
     max-width: 100%;
   }
 
-  section#welcome .welcome-jumbo .title-container h1 {
+  section#app-layout .welcome-jumbo .title-container h1 {
     font-size: 5.3rem;
   }
 
-  section#welcome .welcome-jumbo img {
+  section#app-layout .welcome-jumbo img {
     top: 4em;
     position: absolute;
     transform: rotate(90deg);
@@ -515,19 +515,19 @@ section#welcome .welcome-jumbo img {
 }
 
 @media screen and (max-width: 800px) {
-  section#welcome div.welcome-jumbo div.title-container {
+  section#app-layout div.welcome-jumbo div.title-container {
     top: 30%;
   }
 
-  section#welcome div.welcome-jumbo div.title-container h1 {
+  section#app-layout div.welcome-jumbo div.title-container h1 {
     font-size: 4.1rem;
   }
 
-  section#welcome div.welcome-jumbo div.title-container h1 span {
+  section#app-layout div.welcome-jumbo div.title-container h1 span {
     font-size: 8.4rem;
   }
 
-  section#welcome div.welcome-jumbo div.title-container p {
+  section#app-layout div.welcome-jumbo div.title-container p {
     font-size: 2.2rem;
   }
 }
@@ -1207,74 +1207,52 @@ section#welcome .welcome-jumbo img {
   }
 }
 
-.about-section h2 {
-  background: blue;
-  margin: 1em;
-  transform: rotate(50deg);
+.title-container {
+  -webkit-animation: titleFade 2.5s 1 ease-in-out;
+          animation: titleFade 2.5s 1 ease-in-out;
+  text-align: center;
+  max-width: 80%;
+  width: 40em;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(calc(-50% - 11em)) translateY(-50%);
+  color: #fff;
+  text-shadow: 0px 1px 4px #5f0417, 0px -1px 4px #5f0417, -1px 0px 4px #5f0417, 1px 0px 4px #5f0417;
+}
+
+.title-container h2 {
+  font-size: clamp(5.3rem, 1vw, 1rem);
+  line-height: 0.8;
 }
 
 @media screen and (max-width: 1200px) {
-  .mobile-burger-menu__button {
-    display: block;
-    background: transparent;
-    border: transparent;
-    border-radius: 50%;
-    margin: 0.5em;
-    position: relative;
-    cursor: pointer;
+  div.title-container {
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
   }
 
-  .mobile-burger-menu__button:focus {
-    outline: thin dashed;
-    outline-color: #ee9b08;
-    padding: 0 5px;
+  div.title-container h1 {
+    font-size: 2rem;
   }
+}
 
-  .mobile-burger-menu__button .mobile-burger-menu__elements {
-    width: 35px;
-    height: 35px;
-    position: relative;
-    top: 5px;
-  }
-
-  .mobile-burger-menu__button .mobile-burger-menu__elements:hover .line,
-  .mobile-burger-menu__button .mobile-burger-menu__elements:focus .line {
-    background: #fff;
-  }
-
-  .mobile-burger-menu__button .mobile-burger-menu__elements .line {
-    position: absolute;
-    width: 35px;
-    height: 4px;
-    left: 0px;
-    background: #ee9b08;
-    border-radius: 2.5px;
-    transition: all 0.2s cubic-bezier(0.42, 0, 0.68, 1.78);
-  }
-
-  .mobile-burger-menu__button .mobile-burger-menu__elements .line01 {
-    top: 5%;
-  }
-
-  .mobile-burger-menu__button .mobile-burger-menu__elements .line02 {
+@media screen and (max-width: 800px) {
+  div.title-container {
     top: 30%;
   }
 
-  .mobile-burger-menu__button .mobile-burger-menu__elements .line03 {
-    top: 55%;
+  div.title-container h1 {
+    font-size: 4.1rem;
   }
 
-  .mobile-burger-menu__button .mobile-burger-menu__elements.close .line01 {
-    transform: rotate(45deg);
-    top: 30%;
-    background: yellow;
+  div.title-container h1 span {
+    font-size: 8.4rem;
   }
 
-  .mobile-burger-menu__button .mobile-burger-menu__elements.close .line02,
-  .mobile-burger-menu__button .mobile-burger-menu__elements.close .line03 {
-    background: yellow;
-    top: 30%;
-    transform: rotate(-45deg);
+  div.title-container p {
+    font-size: 2.2rem;
   }
 }
 

@@ -26,7 +26,7 @@
     </head>
     <body>
        <!--* main section -->
-      <section id="welcome">
+      <section id="app-layout">
         <!--! Left Side menu -->
         @include('includes.side-menu')
         <!--! Right Side -->
