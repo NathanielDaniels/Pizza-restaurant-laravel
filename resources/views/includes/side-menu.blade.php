@@ -8,6 +8,7 @@
   <div class="menu">
     <ul>
       <a href="menu"><li>Menu</li></a>
+      <a href="about"><li>About Us</li></a>
       <a href="offers"><li>Rewards</li></a>
       <a href="waitlist"><li>Wait List</li></a>
       <a href="giftcards"><li>Gift Cards</li></a>

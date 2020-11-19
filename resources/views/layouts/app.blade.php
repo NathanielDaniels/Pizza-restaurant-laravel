@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Mamma Mia!</title>
+        {{-- <title>Mamma Mia! - @yield('info')</title> --}}
 
         <!-- Title Icon -->
         <link rel="apple-touch-icon" sizes="180x180" href=".././public/apple-touch-icon.png">

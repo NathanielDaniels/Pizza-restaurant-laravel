@@ -14,6 +14,6 @@
     <div class="title-container">
       <h2 style="text-align: center; color: #fff; font-size: 3rem;margin-top: 1em;">Menu</h2>
     </div>
-    <img src=".././public/img/pizza/pizza-main-cut.png" alt="Pizza" />
+    {{-- <img src=".././public/img/pizza/pizza-main-cut.png" alt="Pizza" /> --}}
   </div>
 @endsection

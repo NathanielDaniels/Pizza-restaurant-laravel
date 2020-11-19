@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-  <div class="welcome-jumbo">
+  <div class="about-section">
     <div class="mobile-burger-menu">
       <button class="mobile-burger-menu__button">
         <div class="mobile-burger-menu__elements">
@@ -14,6 +14,6 @@
     <div class="title-container">
       <h2 style="text-align: center; color: #fff; font-size: 3rem;margin-top: 1em;">About</h2>
     </div>
-    <img src=".././public/img/pizza/pizza-main-cut.png" alt="Pizza" />
+    {{-- <img src=".././public/img/pizza/pizza-main-cut.png" alt="Pizza" /> --}}
   </div>
 @endsection

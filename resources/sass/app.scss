@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+@import 'reset';
+@import 'home';
+@import 'info';
+@import 'food';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/giftcards';
+@import 'pages/offer';
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #5f0417;
+    // font-family: Roboto;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    cursor: default;
+}

@@ -1,6 +1,8 @@
 @extends('layouts.landing')
 
-
+{{-- @section('info')
+  <h1></h1>
+@endsection --}}
 
 @section('title')
   <div class="welcome-jumbo">
