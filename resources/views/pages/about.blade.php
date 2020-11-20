@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title')
+@section('content')
   <div class="content-section">
     <div class="mobile-burger-menu">
       <button class="mobile-burger-menu__button">

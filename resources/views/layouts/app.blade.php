@@ -30,12 +30,13 @@
         @include('includes.side-menu')
         <!--! Right Side -->
         <section id="content-section">
-          @yield('title')
           @yield('content')
         </section>
       </section>
+
+
       <!--! Javascript -->
-      <script type="text/javascript">
+      {{-- <script type="text/javascript">
         function mobileMenu () {
           const menu = document.querySelector('.welcome-menu')
           const closeMenuBtn = document.querySelector('.welcome-menu > .close')
@@ -96,6 +97,6 @@
         arrowClick()
 
 
-      </script>
+      </script> --}}
     </body>
 </html>

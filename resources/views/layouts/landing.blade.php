@@ -27,16 +27,11 @@
     <body>
        <!--* main section -->
       <section id="app-layout">
-        <!--! Left Side menu -->
         @include('includes.side-menu')
-        <!--! Right Side -->
-        @yield('title')
+        @yield('landing-title')
       </section>
-      
-      @yield('content')
 
-
-      
+      @yield('landing-content')
 
       <!--! Javascript -->
       <script type="text/javascript">

@@ -22,50 +22,129 @@ body {
 }
 
 .content-section{
-    cursor: default;
-    position: relative;
-    height: 100vh;
-    width: calc(100% - 14em);
-    .mobile-burger-menu__button {
-        display: none;
-    }
-    .title-container {
-        animation: titleFade 2.5s 1 ease-in-out;
-        text-align: center;
-        max-width: 80%;
-        width: 40em;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translateX(calc(-50% - 11em)) translateY(-50%);
-        color: #fff;
-        text-shadow: 0px 1px 4px #5f0417, 0px -1px 4px #5f0417,
-            -1px 0px 4px #5f0417, 1px 0px 4px #5f0417;
-        h1 {
-            font-size: clamp(5.3rem, 1vw, 1rem);
-            line-height: 0.8;
-            span {
-                position: relative;
-                text-transform: uppercase;
-                font-size: 11rem;
-                color: #ee9b08;
-                font-weight: 600;
-            }
-        }
-        p {
-            font-size: 2.8rem;
-            margin-top: -3px;
-            color: rgba(255, 255, 255, 0.6);
-        }
-    }
-    img {
-        animation: pizzaSlide 1s 1 ease-in-out;
-        position: absolute;
-        right: -5em;
-        top: 50%;
-        transform: translateY(-50%);
-        max-width: 50%;
-        min-width: 20em;
-        filter: drop-shadow(-10px 0px 10px hsla(0, 0%, 0%, 0.4));
-    }
+  cursor: default;
+  position: relative;
+  height: 100vh;
+  width: calc(100% - 14em);
+  .mobile-burger-menu__button {
+      display: none;
+  }
+  .title-container {
+      animation: titleFade 2.5s 1 ease-in-out;
+      text-align: center;
+      max-width: 80%;
+      width: 40em;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translateX(calc(-50% - 11em)) translateY(-50%);
+      color: #fff;
+      text-shadow: 0px 1px 4px #5f0417, 0px -1px 4px #5f0417,
+          -1px 0px 4px #5f0417, 1px 0px 4px #5f0417;
+      h1 {
+          font-size: clamp(5.3rem, 1vw, 1rem);
+          line-height: 0.8;
+          span {
+              position: relative;
+              text-transform: uppercase;
+              font-size: 11rem;
+              color: #ee9b08;
+              font-weight: 600;
+          }
+      }
+      p {
+          font-size: 2.8rem;
+          margin-top: -3px;
+          color: rgba(255, 255, 255, 0.6);
+      }
+  }
+  img {
+      animation: pizzaSlide 1s 1 ease-in-out;
+      position: absolute;
+      right: -5em;
+      top: 50%;
+      transform: translateY(-50%);
+      max-width: 50%;
+      min-width: 20em;
+      filter: drop-shadow(-10px 0px 10px hsla(0, 0%, 0%, 0.4));
+  }
+}
+
+
+//! ================================
+//? @media
+@media screen and (max-width: 1200px) { 
+  .content-section {
+      width: 100%;
+      .mobile-burger-menu__button {
+          display: block;
+          background: transparent;
+          border: transparent;
+          border-radius: 50%;
+          margin: 0.5em;
+          position: relative;
+          cursor: pointer;
+          &:focus {
+              outline: thin dashed;
+              outline-color: #ee9b08;
+              padding: 0 5px;
+          }
+          .mobile-burger-menu__elements {
+              width: 35px;
+              height: 35px;
+              position: relative;
+              top: 5px;
+              &:hover .line,
+              &:focus .line {
+                  background: #fff;
+              }
+              .line {
+                  position: absolute;
+                  width: 35px;
+                  height: 4px;
+                  left: 0px;
+                  background: #ee9b08;
+                  border-radius: 2.5px;
+                  transition: all 0.2s cubic-bezier(0.42, 0, 0.68, 1.78);
+              }
+              .line01 {
+                  top: 5%;
+              }
+              .line02 {
+                  top: 30%;
+              }
+              .line03 {
+                  top: 55%;
+              }
+          }
+          .mobile-burger-menu__elements.close .line01 {
+              transform: rotate(45deg);
+              top: 30%;
+              background: yellow;
+          }
+          .mobile-burger-menu__elements.close .line02,
+          .mobile-burger-menu__elements.close .line03 {
+              background: yellow;
+              top: 30%;
+              transform: rotate(-45deg);
+          }
+      }
+  
+      .title-container {
+          left: 50%;
+          top: 40%;
+          transform: translate(-50%, -50%);
+          z-index: 5;
+          max-width: 100%;
+          h1 {
+              font-size: 5.3rem;
+          }
+      }
+      img {
+          top: 4em;
+          position: absolute;
+          transform: rotate(90deg);
+          max-width: 100%;
+      }
+  }
 }

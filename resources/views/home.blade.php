@@ -1,10 +1,6 @@
 @extends('layouts.landing')
 
-{{-- @section('info')
-  <h1></h1>
-@endsection --}}
-
-@section('title')
+@section('landing-title')
   <div class="content-section">
     <div class="mobile-burger-menu">
       <button class="mobile-burger-menu__button">
@@ -23,7 +19,7 @@
   </div>
 @endsection
 
-@section('content')
+@section('landing-content')
   <!--* Info Section -->
   <section id="information">
     <div class="restaurant-img">
