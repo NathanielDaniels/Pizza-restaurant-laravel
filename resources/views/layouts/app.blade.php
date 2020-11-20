@@ -21,19 +21,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
         <link rel="stylesheet" href="./css/app.css" />
     </head>
     <body>
       <section id="app-layout">
-        <!--! Left Side menu -->
         @include('includes.side-menu')
-        <!--! Right Side -->
         <section id="content-section">
           @yield('content')
         </section>
       </section>
-
 
       <!--! Javascript -->
       {{-- <script type="text/javascript">
